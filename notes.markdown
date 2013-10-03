@@ -1,4 +1,4 @@
-# Lesson One
+# Week One
 
 ### Definitions
 
@@ -155,6 +155,7 @@ And that's it.
     dim(m)=c(2,4)
     cbind(1:6,5:10)
     rbind(1:6,5:10)
+  - m[0,0]
 
 - Data frames
 - Matrix but with different classes (like a list compared to a vector)
@@ -162,10 +163,67 @@ And that's it.
 - nrow/ncol/attributes
 - View/edit (display UIs)
 - yay, CRAN!
+- (install.packages("etc")
+- library(etc)
+- search() to list
+- "psych" is one he likes
 
 
+# Week Two
 
 
+## Different types of variable
+
+Different types of variables
+  - Variables = They change (apple size/weight.etc)
+  - Constants they do not (gravity)
+
+In statistics, we classify variables
+  - Nominal ( Discrete ) ( Discrete ) ( Discrete ) ( Discrete )
+    - Assign cases to categories
+    - It's just a name
+    - Placebo vs Vaccine
+    - Male / Gender
+
+  - Ordinal (Technically discrete, but we can treat them as continuous )
+    - Rank order cases
+    - (rank countries by population, ranking is an ordinal variable)
+
+  - Interval (Continuous)
+    - Uses to rank order cases and the distance or inteval between each value (has to be equal)
+    - Longitute/latitude are interval variables
+
+  - Ratio (Contiuous)
+
+    - Same as an interval variable, but they start at zero
+    - Population/age/temperature (kelvin)
+
+    Population appears twice, it depends on the *case*
+
+**(Should read Stevens 1946 if I have the time)**
+
+
+## Distributions
+
+- Histograms... 
+ - Normal distrbution = bell curve symmetrical around the mean
+ - Uniform distribution - flat
+ - Leptokerdic - big peak in the middle!
+ - They can show skew (in a sample vs a population for example)
+ - Not all distributions are normal
+ - We can have bi-modal distributions (eg: combining two groups with diffenent distributions)
+ - Falling asleep here, so many histograms....
+ - Negative skew - where there are few small items
+ - Positive skew = where there are few large items 
+ - They're the wrong way around!!
+
+## Scales of Measurement
+
+  - C / Farenheight for example
+  - There is a standard scale in statistics called 'Z'
+  - We can convert anything into this
+  - Z = (value - mean) * (standard deviation)
+  - Mean ends up being zero, positive z scores above avg, negative z scores below average
 
 
 
