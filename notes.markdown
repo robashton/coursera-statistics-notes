@@ -171,7 +171,6 @@ And that's it.
 
 # Week Two
 
-
 ## Different types of variable
 
 Different types of variables
@@ -224,6 +223,34 @@ In statistics, we classify variables
   - We can convert anything into this
   - Z = (value - mean) * (standard deviation)
   - Mean ends up being zero, positive z scores above avg, negative z scores below average
+
+
+## Central tendency
+
+- Mean is a measure of central tendency (A point estimate)
+- Median/Mode/etc again too
+- We'll be relying on average
+  - Median is good when displaying extreme scores
+  - Mode can be useful for this too
+- Mode can be applied to nominal variables
+
+# Measures of variability
+
+- Standard Deviation = average deviation from the mean
+- Variance = SD^2
+- standard stuff again...
+- Standard deviation will be changed by outliers (well I learned that with CDEC)
+- So... nothing new here ,probably for the best given how much time I have today
+
+## Lab stuff
+
+- "describe" (ooh, nice!!)
+
+
+
+
+
+
 
 
 
