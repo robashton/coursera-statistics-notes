@@ -247,6 +247,57 @@ In statistics, we classify variables
 - "describe" (ooh, nice!!)
 
 
+# Week Three - Correlation
+
+### Overview
+
+Correlation  describes and measures relationship between two variables
+
+  +1 +ve 
+  0 no correlation
+  -1 -ve (inverse)
+
+
+Scatterplots using the Z score!
+Regression line is the line through that crap
+  (I guess r is calculated using Z too)
+
+Magnitute of correlation depends heavily on
+  - Sampling
+  - Measurement
+This sounds obvious, but it actually really important
+Random vs Representative sampling...
+
+"Young healthy adults" vs "College graduates"
+"Attenuation of distribution"
+
+The correlation co-efficient is a *sample* statistic, it is not representative of everyone
+
+Types of correlation!
+- Pearson product-moment correlation (X&Y are continuous)
+- Point bi-serial correlation (X is continuous and Y is 0 or 1) (dichotomous)
+- Phi co-efficient, both are dichotomous
+- Spearman rank correlation (both variables are ordinal - ranked data)
+
+
+### 
+
+
+
+
+
+
+
+/what for/scatterplots/cautions/types
+
+
+
+
+### Calculation of R
+
+
+### Assumptions
+
 
 
 
