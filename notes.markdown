@@ -280,23 +280,67 @@ Types of correlation!
 - Spearman rank correlation (both variables are ordinal - ranked data)
 
 
-### 
-
-
-
-
-
-
-
-/what for/scatterplots/cautions/types
-
-
-
-
 ### Calculation of R
 
+R = the degree to which X and Y vary together, relative to the degree to which X and Y vary independently
+
+r = Co-variance of X & Y / Variance of X & Y
+
+What is co-variance? Can't wait to find out
+
+Quick recap
+
+- Mean = SUM(X)/COUNT
+- SS = SUM((X-M)^2)
+- SD = SQRT(SOS)
+
+Now to new things - sum of cross products
+
+SP = SUM((x-m) * (y-m)) 
+R = SPxy / SQRT(SSx * SSy)
+
+R can also be calculated with the Z scores of our results
+If you expand the Z score version, it's the same as the one with SP AND SSx * SSy
+
+So, I need to burn THIS into my brain:
+
+Variance = MS = SS / N    = How much a set varies
+Covariance = COV = SP / N = How much sets vary together
+
+See crib-sheet
 
 ### Assumptions
+
+- Normal distributions for X and Y        | Look at a histogram
+- Linear relationship between X and Y     | Example scatterplots
+- Homoscedasticity                       
+
+- Reliability of X and Y
+- Validity of X and Y
+- Random and Representative sampling
+
+Classic example is Anscombe's quartet "look at a chart first"
+  - SD/V/Etc all the same for his data-sets
+  - But pretty charts
+
+Homoscedascticity is that there shouldn't be a relationship between the distance from the regression line and "X" (no obvious patterns along that line)
+
+
+### Reliability
+
+True score theory (possible to get X = true score + bias + error
+In a perfect we could get this, instead of the raw score (X)
+This is due to problems with measurement (thermometers being dodgy for example)
+
+
+
+
+
+
+
+
+
+
 
 
 
