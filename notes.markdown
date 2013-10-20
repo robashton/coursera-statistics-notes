@@ -330,25 +330,76 @@ Homoscedascticity is that there shouldn't be a relationship between the distance
 
 True score theory (possible to get X = true score + bias + error
 In a perfect we could get this, instead of the raw score (X)
-This is due to problems with measurement (thermometers being dodgy for example)
+This is dure to problems with measurement (thermometers being dodgy for example)
 
 
+# Week Four
+
+### Correlations
+
+Simple regression = from one variable
+Multiple regession = more than one variable
 
 
+Y = Bo + B1X1 + e
+Y = symptom score
+X1 = impulse control
+Solve for Bo and B1
 
+In R, this is the function "lm" (linear)
 
+Multiple regression is
 
+Y = bo + b1x1 + b2x2 + e
 
+The goal is to use more/better  predictors to make better models
 
+### Introduction to regression
 
+- Ordinary least squares estimation
 
+The goal is to get the line to be on average as close to all the dots as we can
 
+The sum of squares of variance that both sets X,Y is the MODEL
+The sum of squares of variance not in both sets is the residuals
 
+We can find the residual for Y by 
 
+SS.Y - SS.Model
 
+Simples.
 
+### Assumptions
 
+Back to the quartet - the regression line for all of the samples is the same
+We can test the assmumptions by saving the residuals
 
+By looking at these in a scatterplot, we'll see a relationship between X and the residual
+  - Compounds, mistakes, etc
 
+### Null hypothesis significance testing
+
+Ho = null hypothesis (r=0)
+Ha = alternative hypothesis  (r>0)
+
+This is quite herpy derpy..
+
+We can work out the probability of the NH with "T" - the probability of getting our result given that NH=true
+
+Biased by sample size
+  p-value is based on t-value
+  t = B/SE
+  SE = SQRT(SS.RESIDUAL/ N-2)
+
+  With a large sample size, we can get a t value
+
+Arbitrary decision rule
+
+  If P < .05 is considered standard
+  Problems arised when p is close to our alpha
+
+Yokel local test
+  It's used because it's all they know
+  Encourages weak hypothesis testing
 
 

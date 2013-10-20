@@ -7,6 +7,8 @@
 - Co-variance = SP / N
 - Z = (S - M) * SD
 - R = SP / SQRT(SSx * SSy)
+- Y = Bo + B1X1 + e
+
 
 
 
